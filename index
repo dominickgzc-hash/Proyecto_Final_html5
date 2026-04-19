@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Villahermosa, Tabasco</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#informacion">Información</a></li>
+                <li><a href="#lugares">Lugares Turísticos</a></li>
+                <li><a href="#gastronomia">Gastronomía</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h1>Bienvenidos a Villahermosa</h1>
+            <img src="img/villahermosa.jpg" alt="Villahermosa">
+        </section>
+
+        <section id="informacion">
+            <h2>Información del Lugar</h2>
+            <p>Villahermosa es la capital del estado de Tabasco, conocida por su rica historia y cultura.</p>
+            <img src="img/informacion.jpg" alt="Información de Villahermosa">
+        </section>
+
+        <section id="lugares">
+            <h2>Lugares Turísticos</h2>
+            <article>
+                <h3>Parque-Museo La Venta</h3>
+                <img src="img/la_venta.jpg" alt="Parque-Museo La Venta">
+                <p>Un importante sitio arqueológico que alberga cabezas colosales de la cultura Olmeca.</p>
+            </article>
+            <article>
+                <h3>Catedral del Señor de Tabasco</h3>
+                <img src="img/catedral.jpg" alt="Catedral del Señor de Tabasco">
+                <p>Una hermosa catedral que es un símbolo de la ciudad.</p>
+            </article>
+        </section>
+
+        <section id="gastronomia">
+            <h2>Gastronomía</h2>
+            <p>La gastronomía de Villahermosa es rica y variada, destacando platillos como el pejelagarto asado y los tamales.</p>
+            <img src="img/gastronomia.jpg" alt="Gastronomía de Villahermosa">
+        </section>
+
+        <section id="galeria">
+            <h2>Galería</h2>
+            <img src="img/galeria1.jpg" alt="Galería 1">
+            <img src="img/galeria2.jpg" alt="Galería 2">
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Para más información, contáctanos a través de este formulario.</p>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Villahermosa, Tabasco. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
