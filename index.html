@@ -8,31 +8,30 @@
 </head>
 <body>
     <header>
+        <h1>Villahermosa, Tabasco</h1>
         <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#informacion">Información</a></li>
-                <li><a href="#lugares">Lugares Turísticos</a></li>
-                <li><a href="#gastronomia">Gastronomía</a></li>
-                <li><a href="#galeria">Galería</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
+            <button onclick="showSection('inicio')">Inicio</button>
+            <button onclick="showSection('informacion')">Información</button>
+            <button onclick="showSection('lugares')">Lugares Turísticos</button>
+            <button onclick="showSection('gastronomia')">Gastronomía</button>
+            <button onclick="showSection('galeria')">Galería</button>
+            <button onclick="showSection('contacto')">Contacto</button>
         </nav>
     </header>
 
     <main>
-        <section id="inicio">
-            <h1>Bienvenidos a Villahermosa</h1>
+        <section id="inicio" class="section active">
+            <h2>Bienvenidos a Villahermosa</h2>
             <img src="img/villahermosa.jpg" alt="Villahermosa">
         </section>
 
-        <section id="informacion">
+        <section id="informacion" class="section">
             <h2>Información del Lugar</h2>
             <p>Villahermosa es la capital del estado de Tabasco, conocida por su rica historia y cultura.</p>
             <img src="img/informacion.jpg" alt="Información de Villahermosa">
         </section>
 
-        <section id="lugares">
+        <section id="lugares" class="section">
             <h2>Lugares Turísticos</h2>
             <article>
                 <h3>Parque-Museo La Venta</h3>
@@ -46,19 +45,19 @@
             </article>
         </section>
 
-        <section id="gastronomia">
+        <section id="gastronomia" class="section">
             <h2>Gastronomía</h2>
             <p>La gastronomía de Villahermosa es rica y variada, destacando platillos como el pejelagarto asado y los tamales.</p>
             <img src="img/gastronomia.jpg" alt="Gastronomía de Villahermosa">
         </section>
 
-        <section id="galeria">
+        <section id="galeria" class="section">
             <h2>Galería</h2>
             <img src="img/galeria1.jpg" alt="Galería 1">
             <img src="img/galeria2.jpg" alt="Galería 2">
         </section>
 
-        <section id="contacto">
+        <section id="contacto" class="section">
             <h2>Contacto</h2>
             <p>Para más información, contáctanos a través de este formulario.</p>
             <form>
